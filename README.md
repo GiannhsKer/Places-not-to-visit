@@ -2,10 +2,12 @@
 
 A travel guide application you might use before traveling.
 
-![weather](assets/weather.jpg)
-![cams](assets/cams.jpg)
-![prices](assets/prices.jpg)
 
+<p float="left">
+    <img src="assets/weather.jpg" alt="screenshot1" width="250"/>
+    <img src="assets/cams.jpg" alt="screenshot2" width="250"/>
+    <img src="assets/prices.jpg" alt="screenshot3" width="250"/>
+</p>
 ## Features
 
 - 3-day forecast. (data being fetched from [weatherapi](https://www.weatherapi.com/))
