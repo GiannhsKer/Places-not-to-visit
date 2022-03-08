@@ -2,9 +2,9 @@
 
 A travel guide application you might use before traveling.
 
-![weather](/assets/weather.png)
-![cams](/assets/cams.png)
-![prices](/assets/prices.png)
+![weather](assets/weather.jpg)
+![cams](assets/cams.jpg)
+![prices](assets/prices.jpg)
 
 ## Features
 
