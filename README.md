@@ -8,6 +8,7 @@ A travel guide application you might use before traveling.
     <img src="assets/cams.jpg" alt="screenshot2" width="250"/>
     <img src="assets/prices.jpg" alt="screenshot3" width="250"/>
 </p>
+
 ## Features
 
 - 3-day forecast. (data being fetched from [weatherapi](https://www.weatherapi.com/))
