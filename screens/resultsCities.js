@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Pressable} from 'react-native';
+import { StyleSheet, Text, View, Pressable, ScrollView} from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import uuid from 'react-native-uuid';
 
-const Results = ({navigation,route}) => {
+const ResultsCities = ({navigation,route}) => {
 
   const [data, setData] = useState([]);
 
-
+  const api_key = "21e506d74d464ffa90d220042210612"
+  
   const fetchData = async (url) => {
     const response = await fetch(url);
     return response.json();
@@ -15,7 +16,7 @@ const Results = ({navigation,route}) => {
 
   const getData = () => {
     try {
-      fetchData(`http://api.weatherapi.com/v1/search.json?key=21e506d74d464ffa90d220042210612&q=${route.params.place}`).then(data => {
+      fetchData(`http://api.weatherapi.com/v1/search.json?key=${api_key}&q=${route.params.place}`).then(data => {
         setData(data)
       });
     } catch (error) {
@@ -29,18 +30,20 @@ const Results = ({navigation,route}) => {
  
    return (
         <View style={styles.container}>
-            <View style={{ marginTop : 20}}>
+            <Text style={styles.titles}>Places Not To Visit</Text>
+            <ScrollView style={{ marginTop : 50}}>
+                <View style={styles.borderline}></View>
                 {data.length > 0 ? data.slice(0,5).map(result => 
                     <View key = {uuid.v4()}>
-                        <Pressable style={{alignSelf : 'center'}} onPress = {() => {navigation.navigate('Screens',{'place' : result.name})}}>
+                        <Pressable style={{alignSelf : 'center'}} onPress = {() => {navigation.navigate('screens',{city : result.name , country : result.country})}}>
                             <Text> </Text>
-                            <Text style={styles.result}>{result.name}</Text>
+                            <Text style={styles.result}>{result.name}, {result.country}</Text>
                             <Text> </Text>
                         </Pressable>
-                        <View style={styles.borderline}></View>
+                        <View style={{borderWidth: 1}}></View>
                     </View> ) : 
                 <Not_found place={route.params.place}/>}
-            </View>
+            </ScrollView>
         </View>
    )
 }
@@ -69,15 +72,13 @@ const styles = StyleSheet.create({
         fontSize : 20,
     },
     titles: {
-        marginTop : 10,
+        marginTop : 100,
         alignSelf: 'center',
         fontSize: 30,
-        fontWeight: 'bold',
-        color: 'blue'
-    },
+      },
     borderline:{
         borderWidth: 1,
     }
 });
 
-export default Results;
+export default ResultsCities;

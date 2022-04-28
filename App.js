@@ -3,9 +3,11 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Searchbar } from 'react-native-paper';
-import Results from './screens/results';
+
 import Screens from './screens/screens'
-import Display from './screens/display'
+import ResultsCities from './screens/resultsCities';
+import Display from './screens/webcamsDisplay'
+import ResultsReviews from './screens/resultsReviews';
 
 const Stack = createNativeStackNavigator();
 
@@ -14,11 +16,12 @@ const App = () => {
 
    return (
       <NavigationContainer >
-        <Stack.Navigator initialRouteName='Home'>
-          <Stack.Screen name="Home" component={Home} />
-          <Stack.Screen name="Results" component={Results} />
-          <Stack.Screen name="Screens" component={Screens} />
-          <Stack.Screen name="Display" component={Display} />
+        <Stack.Navigator screenOptions = {{headerShown: false}} initialRouteName ='home'>
+          <Stack.Screen name="home" component={Home} />
+          <Stack.Screen name="resultsCities" component={ResultsCities} />
+          <Stack.Screen name="screens" component={Screens} />
+          <Stack.Screen name="display" component={Display} />
+          <Stack.Screen name="resultsReviews" component={ResultsReviews} />
         </Stack.Navigator>
       </NavigationContainer>
     );
@@ -26,7 +29,7 @@ const App = () => {
 
 const Home = ({navigation}) => {
 
-  const [place, setPlace] = useState('');
+  const [query, setQuery] = useState('');
  
    return (
       <View>
@@ -34,14 +37,14 @@ const Home = ({navigation}) => {
  
        <Searchbar
           placeholder="search the city here"
-          onChangeText={query => setPlace(query)}
-          value={place}
+          onChangeText={query => setQuery(query)}
+          value={query}
           style={styles.searchbar}
        />
        <View style={styles.button}> 
         <Button
           title = "Search"
-          onPress= {() => navigation.navigate('Results',{'place' : place }) }
+          onPress= {() => navigation.navigate('resultsCities',{place : query }) }
         />
       </View>
      </View>
@@ -52,6 +55,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
+  titles: {
+    marginTop : 100,
+    alignSelf: 'center',
+    fontSize: 30,
+  },
   searchbar: {
     alignSelf: 'center',
     width: 300,
@@ -60,11 +68,6 @@ const styles = StyleSheet.create({
   button: {
     width : 200,
     alignSelf: 'center'
-  },
-  titles: {
-    marginTop : 50,
-    alignSelf: 'center',
-    fontSize: 30,
   },
 });
 

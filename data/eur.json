@@ -1,0 +1,1343 @@
+{
+    "usd": {
+        "code": "USD",
+        "alphaCode": "USD",
+        "numericCode": "840",
+        "name": "U.S. Dollar",
+        "rate": 1.142910863121,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.87495887235618
+    },
+    "gbp": {
+        "code": "GBP",
+        "alphaCode": "GBP",
+        "numericCode": "826",
+        "name": "U.K. Pound Sterling",
+        "rate": 0.84512815460092,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 1.183252497927
+    },
+    "aud": {
+        "code": "AUD",
+        "alphaCode": "AUD",
+        "numericCode": "036",
+        "name": "Australian Dollar",
+        "rate": 1.6056215001164,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.62281178965746
+    },
+    "chf": {
+        "code": "CHF",
+        "alphaCode": "CHF",
+        "numericCode": "756",
+        "name": "Swiss Franc",
+        "rate": 1.0561812203063,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.94680721525235
+    },
+    "cad": {
+        "code": "CAD",
+        "alphaCode": "CAD",
+        "numericCode": "124",
+        "name": "Canadian Dollar",
+        "rate": 1.4508017106206,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.68927407010862
+    },
+    "jpy": {
+        "code": "JPY",
+        "alphaCode": "JPY",
+        "numericCode": "392",
+        "name": "Japanese Yen",
+        "rate": 131.6078146946,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0075983329889681
+    },
+    "sos": {
+        "code": "SOS",
+        "alphaCode": "SOS",
+        "numericCode": "706",
+        "name": "Somali shilling",
+        "rate": 651.14914439302,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0015357464700843
+    },
+    "aed": {
+        "code": "AED",
+        "alphaCode": "AED",
+        "numericCode": "784",
+        "name": "U.A.E Dirham",
+        "rate": 4.176125694373,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.23945639408014
+    },
+    "php": {
+        "code": "PHP",
+        "alphaCode": "PHP",
+        "numericCode": "608",
+        "name": "Philippine Peso",
+        "rate": 58.857687654361,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.01699013399698
+    },
+    "ils": {
+        "code": "ILS",
+        "alphaCode": "ILS",
+        "numericCode": "376",
+        "name": "Israeli New Sheqel",
+        "rate": 3.6508161736228,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.27391135363786
+    },
+    "mro": {
+        "code": "MRO",
+        "alphaCode": "MRO",
+        "numericCode": "478",
+        "name": "Mauritanian Ouguiya",
+        "rate": 41.498851024506,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.02409705269694
+    },
+    "cop": {
+        "code": "COP",
+        "alphaCode": "COP",
+        "numericCode": "170",
+        "name": "Colombian Peso",
+        "rate": 4474.6471019534,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00022348131086437
+    },
+    "bzd": {
+        "code": "BZD",
+        "alphaCode": "BZD",
+        "numericCode": "084",
+        "name": "Belize dollar",
+        "rate": 2.2689587321128,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.44073080124681
+    },
+    "gnf": {
+        "code": "GNF",
+        "alphaCode": "GNF",
+        "numericCode": "324",
+        "name": "Guinean franc",
+        "rate": 10126.241270059,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 9.8753325476927e-5
+    },
+    "szl": {
+        "code": "SZL",
+        "alphaCode": "SZL",
+        "numericCode": "748",
+        "name": "Swazi lilangeni",
+        "rate": 17.190436108322,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.058171880788755
+    },
+    "wst": {
+        "code": "WST",
+        "alphaCode": "WST",
+        "numericCode": "882",
+        "name": "Samoan tala",
+        "rate": 2.9511814266108,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.33884734804272
+    },
+    "cny": {
+        "code": "CNY",
+        "alphaCode": "CNY",
+        "numericCode": "156",
+        "name": "Chinese Yuan",
+        "rate": 7.2724651854579,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.13750495526601
+    },
+    "sar": {
+        "code": "SAR",
+        "alphaCode": "SAR",
+        "numericCode": "682",
+        "name": "Saudi Riyal",
+        "rate": 4.2837987610364,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.23343766964396
+    },
+    "myr": {
+        "code": "MYR",
+        "alphaCode": "MYR",
+        "numericCode": "458",
+        "name": "Malaysian Ringgit",
+        "rate": 4.7808656947678,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.20916713914269
+    },
+    "kzt": {
+        "code": "KZT",
+        "alphaCode": "KZT",
+        "numericCode": "398",
+        "name": "Kazakhstani Tenge",
+        "rate": 489.22946297509,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0020440306148343
+    },
+    "pab": {
+        "code": "PAB",
+        "alphaCode": "PAB",
+        "numericCode": "590",
+        "name": "Panamanian Balboa",
+        "rate": 1.1345411114982,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.88141363046725
+    },
+    "gyd": {
+        "code": "GYD",
+        "alphaCode": "GYD",
+        "numericCode": "328",
+        "name": "Guyanese dollar",
+        "rate": 235.49398302461,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.004246392995508
+    },
+    "rwf": {
+        "code": "RWF",
+        "alphaCode": "RWF",
+        "numericCode": "646",
+        "name": "Rwandan franc",
+        "rate": 1169.5169087358,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00085505390518973
+    },
+    "ern": {
+        "code": "ERN",
+        "alphaCode": "ERN",
+        "numericCode": "232",
+        "name": "Eritrean nakfa",
+        "rate": 16.965430400098,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.058943391144042
+    },
+    "mop": {
+        "code": "MOP",
+        "alphaCode": "MOP",
+        "numericCode": "446",
+        "name": "Macanese pataca",
+        "rate": 9.0405661398688,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.11061254179536
+    },
+    "bam": {
+        "code": "BAM",
+        "alphaCode": "BAM",
+        "numericCode": "977",
+        "name": "Bosnia and Herzegovina convertible mark",
+        "rate": 1.9500327067513,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.51281191158376
+    },
+    "idr": {
+        "code": "IDR",
+        "alphaCode": "IDR",
+        "numericCode": "360",
+        "name": "Indonesian Rupiah",
+        "rate": 16454.623480461,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 6.0773192482187e-5
+    },
+    "tnd": {
+        "code": "TND",
+        "alphaCode": "TND",
+        "numericCode": "788",
+        "name": "Tunisian Dinar",
+        "rate": 3.2696106350527,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.30584681529942
+    },
+    "xof": {
+        "code": "XOF",
+        "alphaCode": "XOF",
+        "numericCode": "952",
+        "name": "West African CFA Franc",
+        "rate": 656.21819264183,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0015238833839308
+    },
+    "tjs": {
+        "code": "TJS",
+        "alphaCode": "TJS",
+        "numericCode": "972",
+        "name": "Tajikistan Ruble",
+        "rate": 12.876489728342,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.077660916996574
+    },
+    "bob": {
+        "code": "BOB",
+        "alphaCode": "BOB",
+        "numericCode": "068",
+        "name": "Bolivian Boliviano",
+        "rate": 7.7949332261577,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.12828846264446
+    },
+    "nad": {
+        "code": "NAD",
+        "alphaCode": "NAD",
+        "numericCode": "516",
+        "name": "Namibian dollar",
+        "rate": 17.190436108322,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.058171880788755
+    },
+    "syp": {
+        "code": "SYP",
+        "alphaCode": "SYP",
+        "numericCode": "760",
+        "name": "Syrian pound",
+        "rate": 2835.3475556164,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00035269044813188
+    },
+    "gtq": {
+        "code": "GTQ",
+        "alphaCode": "GTQ",
+        "numericCode": "320",
+        "name": "Guatemalan Quetzal",
+        "rate": 8.6558978992296,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.1155281649162
+    },
+    "kwd": {
+        "code": "KWD",
+        "alphaCode": "KWD",
+        "numericCode": "414",
+        "name": "Kuwaiti Dinar",
+        "rate": 0.34377190502955,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 2.9089055428018
+    },
+    "czk": {
+        "code": "CZK",
+        "alphaCode": "CZK",
+        "numericCode": "203",
+        "name": "Czech Koruna",
+        "rate": 24.223057067317,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.041282980807128
+    },
+    "pgk": {
+        "code": "PGK",
+        "alphaCode": "PGK",
+        "numericCode": "598",
+        "name": "Papua New Guinean kina",
+        "rate": 4.0049622130733,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.24969024594932
+    },
+    "uah": {
+        "code": "UAH",
+        "alphaCode": "UAH",
+        "numericCode": "980",
+        "name": "Ukrainian Hryvnia",
+        "rate": 31.946451956276,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.031302380664015
+    },
+    "etb": {
+        "code": "ETB",
+        "alphaCode": "ETB",
+        "numericCode": "230",
+        "name": "Ethiopian birr",
+        "rate": 56.145496150818,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.017810867630661
+    },
+    "xcd": {
+        "code": "XCD",
+        "alphaCode": "XCD",
+        "numericCode": "951",
+        "name": "East Caribbean Dollar",
+        "rate": 3.0510162680652,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.32775964207957
+    },
+    "mwk": {
+        "code": "MWK",
+        "alphaCode": "MWK",
+        "numericCode": "454",
+        "name": "Malawian kwacha",
+        "rate": 919.6343176538,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0010873887378966
+    },
+    "mvr": {
+        "code": "MVR",
+        "alphaCode": "MVR",
+        "numericCode": "462",
+        "name": "Maldivian rufiyaa",
+        "rate": 17.401442612145,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.057466499892491
+    },
+    "sek": {
+        "code": "SEK",
+        "alphaCode": "SEK",
+        "numericCode": "752",
+        "name": "Swedish Krona",
+        "rate": 10.437751918596,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.095806070866501
+    },
+    "mad": {
+        "code": "MAD",
+        "alphaCode": "MAD",
+        "numericCode": "504",
+        "name": "Moroccan Dirham",
+        "rate": 10.621462949599,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.094148989150102
+    },
+    "ron": {
+        "code": "RON",
+        "alphaCode": "RON",
+        "numericCode": "946",
+        "name": "Romanian New Leu",
+        "rate": 4.9470722200527,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.20213976176587
+    },
+    "byn": {
+        "code": "BYN",
+        "alphaCode": "BYN",
+        "numericCode": "933",
+        "name": "Belarussian Ruble",
+        "rate": 2.9386423823946,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.34029319320751
+    },
+    "rsd": {
+        "code": "RSD",
+        "alphaCode": "RSD",
+        "numericCode": "941",
+        "name": "Serbian Dinar",
+        "rate": 117.77359086962,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.008490867881468
+    },
+    "gmd": {
+        "code": "GMD",
+        "alphaCode": "GMD",
+        "numericCode": "270",
+        "name": "Gambian dalasi",
+        "rate": 59.928085719765,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.01668666682724
+    },
+    "awg": {
+        "code": "AWG",
+        "alphaCode": "AWG",
+        "numericCode": "533",
+        "name": "Aruban florin",
+        "rate": 2.036979070983,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.49092306064659
+    },
+    "mmk": {
+        "code": "MMK",
+        "alphaCode": "MMK",
+        "numericCode": "104",
+        "name": "Myanma Kyat",
+        "rate": 2001.1275205056,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00049971827869687
+    },
+    "kes": {
+        "code": "KES",
+        "alphaCode": "KES",
+        "numericCode": "404",
+        "name": "Kenyan shilling",
+        "rate": 127.86955547061,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0078204698242644
+    },
+    "bhd": {
+        "code": "BHD",
+        "alphaCode": "BHD",
+        "numericCode": "048",
+        "name": "Bahrain Dinar",
+        "rate": 0.42836882687748,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 2.3344369087016
+    },
+    "omr": {
+        "code": "OMR",
+        "alphaCode": "OMR",
+        "numericCode": "512",
+        "name": "Omani Rial",
+        "rate": 0.43779273726507,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 2.2841859055202
+    },
+    "rub": {
+        "code": "RUB",
+        "alphaCode": "RUB",
+        "numericCode": "643",
+        "name": "Russian Rouble",
+        "rate": 86.257660482767,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.011593173225464
+    },
+    "lyd": {
+        "code": "LYD",
+        "alphaCode": "LYD",
+        "numericCode": "434",
+        "name": "Libyan Dinar",
+        "rate": 5.2044536844247,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.19214312599086
+    },
+    "clp": {
+        "code": "CLP",
+        "alphaCode": "CLP",
+        "numericCode": "152",
+        "name": "Chilean Peso",
+        "rate": 942.45753128531,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0010610557683551
+    },
+    "bsd": {
+        "code": "BSD",
+        "alphaCode": "BSD",
+        "numericCode": "044",
+        "name": "Bahamian Dollar",
+        "rate": 1.1261713598754,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.88796433263107
+    },
+    "djf": {
+        "code": "DJF",
+        "alphaCode": "DJF",
+        "numericCode": "262",
+        "name": "Djiboutian franc",
+        "rate": 200.38677013058,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0049903494095362
+    },
+    "sll": {
+        "code": "SLL",
+        "alphaCode": "SLL",
+        "numericCode": "694",
+        "name": "Sierra Leonean leone",
+        "rate": 12851.433679848,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 7.7812330119096e-5
+    },
+    "ugx": {
+        "code": "UGX",
+        "alphaCode": "UGX",
+        "numericCode": "800",
+        "name": "Ugandan shilling",
+        "rate": 3934.5672931364,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00025415755418504
+    },
+    "bdt": {
+        "code": "BDT",
+        "alphaCode": "BDT",
+        "numericCode": "050",
+        "name": "Bangladeshi taka",
+        "rate": 97.489074737447,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.010257559656743
+    },
+    "qar": {
+        "code": "QAR",
+        "alphaCode": "QAR",
+        "numericCode": "634",
+        "name": "Qatari Rial",
+        "rate": 4.1462866108894,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.24117966118736
+    },
+    "mxn": {
+        "code": "MXN",
+        "alphaCode": "MXN",
+        "numericCode": "484",
+        "name": "Mexican Peso",
+        "rate": 23.553204012894,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.042457068662614
+    },
+    "amd": {
+        "code": "AMD",
+        "alphaCode": "AMD",
+        "numericCode": "051",
+        "name": "Armenia Dram",
+        "rate": 550.35233339228,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0018170178253559
+    },
+    "htg": {
+        "code": "HTG",
+        "alphaCode": "HTG",
+        "numericCode": "332",
+        "name": "Haitian gourde",
+        "rate": 116.41996744812,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0085895918193383
+    },
+    "fjd": {
+        "code": "FJD",
+        "alphaCode": "FJD",
+        "numericCode": "242",
+        "name": "Fiji Dollar",
+        "rate": 2.4135752761152,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.41432310394295
+    },
+    "cdf": {
+        "code": "CDF",
+        "alphaCode": "CDF",
+        "numericCode": "976",
+        "name": "Congolese franc",
+        "rate": 2253.6294530483,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00044372867005594
+    },
+    "mzn": {
+        "code": "MZN",
+        "alphaCode": "MZN",
+        "numericCode": "943",
+        "name": "Mozambican metical",
+        "rate": 72.123308250974,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.013865143242185
+    },
+    "top": {
+        "code": "TOP",
+        "alphaCode": "TOP",
+        "numericCode": "776",
+        "name": "Tongan pa\u02bbanga",
+        "rate": 2.592317765135,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.38575517764425
+    },
+    "vuv": {
+        "code": "VUV",
+        "alphaCode": "VUV",
+        "numericCode": "548",
+        "name": "Vanuatu vatu",
+        "rate": 127.71116741699,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.007830168811588
+    },
+    "hkd": {
+        "code": "HKD",
+        "alphaCode": "HKD",
+        "numericCode": "344",
+        "name": "Hong Kong Dollar",
+        "rate": 8.9082282683641,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.11225576735065
+    },
+    "thb": {
+        "code": "THB",
+        "alphaCode": "THB",
+        "numericCode": "764",
+        "name": "Thai Baht",
+        "rate": 37.672632114573,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.026544468593506
+    },
+    "xaf": {
+        "code": "XAF",
+        "alphaCode": "XAF",
+        "numericCode": "950",
+        "name": "Central African CFA Franc",
+        "rate": 656.77280067789,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0015225965493209
+    },
+    "mdl": {
+        "code": "MDL",
+        "alphaCode": "MDL",
+        "numericCode": "498",
+        "name": "Moldova Lei",
+        "rate": 20.478582996842,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.048831503632562
+    },
+    "uyu": {
+        "code": "UYU",
+        "alphaCode": "UYU",
+        "numericCode": "858",
+        "name": "Uruguayan Peso",
+        "rate": 49.64805652875,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.020141775326511
+    },
+    "lrd": {
+        "code": "LRD",
+        "alphaCode": "LRD",
+        "numericCode": "430",
+        "name": "Liberian dollar",
+        "rate": 171.83924579493,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0058193923941762
+    },
+    "sdg": {
+        "code": "SDG",
+        "alphaCode": "SDG",
+        "numericCode": "938",
+        "name": "Sudanese pound",
+        "rate": 498.52264714135,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0020059269237501
+    },
+    "bwp": {
+        "code": "BWP",
+        "alphaCode": "BWP",
+        "numericCode": "072",
+        "name": "Botswana Pula",
+        "rate": 12.998728048671,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.076930603998768
+    },
+    "jod": {
+        "code": "JOD",
+        "alphaCode": "JOD",
+        "numericCode": "400",
+        "name": "Jordanian Dinar",
+        "rate": 0.80729911667717,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 1.2386982462163
+    },
+    "bgn": {
+        "code": "BGN",
+        "alphaCode": "BGN",
+        "numericCode": "975",
+        "name": "Bulgarian Lev",
+        "rate": 1.9563687856819,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.51115107096305
+    },
+    "vnd": {
+        "code": "VND",
+        "alphaCode": "VND",
+        "numericCode": "704",
+        "name": "Vietnamese Dong",
+        "rate": 25894.899766643,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 3.8617643204326e-5
+    },
+    "uzs": {
+        "code": "UZS",
+        "alphaCode": "UZS",
+        "numericCode": "860",
+        "name": "Uzbekistan Sum",
+        "rate": 12362.817487487,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 8.0887710346945e-5
+    },
+    "mga": {
+        "code": "MGA",
+        "alphaCode": "MGA",
+        "numericCode": "969",
+        "name": "Malagasy ariary",
+        "rate": 4491.6396920655,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00022263584538326
+    },
+    "ttd": {
+        "code": "TTD",
+        "alphaCode": "TTD",
+        "numericCode": "780",
+        "name": "Trinidad Tobago Dollar",
+        "rate": 7.6283102219373,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.13109063094002
+    },
+    "lak": {
+        "code": "LAK",
+        "alphaCode": "LAK",
+        "numericCode": "418",
+        "name": "Lao kip",
+        "rate": 12779.031236581,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 7.8253193179264e-5
+    },
+    "khr": {
+        "code": "KHR",
+        "alphaCode": "KHR",
+        "numericCode": "116",
+        "name": "Cambodian riel",
+        "rate": 4577.7558920144,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00021844764631169
+    },
+    "nok": {
+        "code": "NOK",
+        "alphaCode": "NOK",
+        "numericCode": "578",
+        "name": "Norwegian Krone",
+        "rate": 10.050365288883,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.099498871061543
+    },
+    "lkr": {
+        "code": "LKR",
+        "alphaCode": "LKR",
+        "numericCode": "144",
+        "name": "Sri Lanka Rupee",
+        "rate": 229.44946157889,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0043582582112801
+    },
+    "pln": {
+        "code": "PLN",
+        "alphaCode": "PLN",
+        "numericCode": "985",
+        "name": "Polish Zloty",
+        "rate": 4.5368604231513,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.22041674345922
+    },
+    "pen": {
+        "code": "PEN",
+        "alphaCode": "PEN",
+        "numericCode": "604",
+        "name": "Peruvian Nuevo Sol",
+        "rate": 4.3901420566614,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.22778306193592
+    },
+    "iqd": {
+        "code": "IQD",
+        "alphaCode": "IQD",
+        "numericCode": "368",
+        "name": "Iraqi dinar",
+        "rate": 1642.508747278,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00060882476373854
+    },
+    "nio": {
+        "code": "NIO",
+        "alphaCode": "NIO",
+        "numericCode": "558",
+        "name": "Nicaraguan C\u00f3rdoba",
+        "rate": 39.899349947108,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.025063064970373
+    },
+    "cve": {
+        "code": "CVE",
+        "alphaCode": "CVE",
+        "numericCode": "132",
+        "name": "Cape Verde escudo",
+        "rate": 110.3784936493,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0090597358863879
+    },
+    "aoa": {
+        "code": "AOA",
+        "alphaCode": "AOA",
+        "numericCode": "973",
+        "name": "Angolan kwanza",
+        "rate": 596.9152748666,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0016752796286265
+    },
+    "scr": {
+        "code": "SCR",
+        "alphaCode": "SCR",
+        "numericCode": "690",
+        "name": "Seychelles rupee",
+        "rate": 14.864207368893,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.067275702981159
+    },
+    "dop": {
+        "code": "DOP",
+        "alphaCode": "DOP",
+        "numericCode": "214",
+        "name": "Dominican Peso",
+        "rate": 65.386030596374,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.015293786621992
+    },
+    "nzd": {
+        "code": "NZD",
+        "alphaCode": "NZD",
+        "numericCode": "554",
+        "name": "New Zealand Dollar",
+        "rate": 1.7236062615634,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.58017890877985
+    },
+    "hrk": {
+        "code": "HRK",
+        "alphaCode": "HRK",
+        "numericCode": "191",
+        "name": "Croatian Kuna",
+        "rate": 7.5110526138576,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.1331371315593
+    },
+    "dzd": {
+        "code": "DZD",
+        "alphaCode": "DZD",
+        "numericCode": "012",
+        "name": "Algerian Dinar",
+        "rate": 159.3061266502,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0062772224837013
+    },
+    "ars": {
+        "code": "ARS",
+        "alphaCode": "ARS",
+        "numericCode": "032",
+        "name": "Argentine Peso",
+        "rate": 119.61811958369,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0083599374700116
+    },
+    "stn": {
+        "code": "STN",
+        "alphaCode": "STN",
+        "numericCode": "930",
+        "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe Dobra",
+        "rate": 24.682024423212,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.04051531522915
+    },
+    "xpf": {
+        "code": "XPF",
+        "alphaCode": "XPF",
+        "numericCode": "953",
+        "name": "CFP Franc",
+        "rate": 119.07283889305,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0083982208646105
+    },
+    "hnl": {
+        "code": "HNL",
+        "alphaCode": "HNL",
+        "numericCode": "340",
+        "name": "Honduran Lempira",
+        "rate": 27.71262119112,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.036084641474493
+    },
+    "tzs": {
+        "code": "TZS",
+        "alphaCode": "TZS",
+        "numericCode": "834",
+        "name": "Tanzanian shilling",
+        "rate": 2602.7286798544,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00038421215693368
+    },
+    "bbd": {
+        "code": "BBD",
+        "alphaCode": "BBD",
+        "numericCode": "052",
+        "name": "Barbadian Dollar",
+        "rate": 2.2846297355527,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.43770768822549
+    },
+    "ang": {
+        "code": "ANG",
+        "alphaCode": "ANG",
+        "numericCode": "532",
+        "name": "Neth. Antillean Guilder",
+        "rate": 2.0321186768718,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.49209724381815
+    },
+    "pkr": {
+        "code": "PKR",
+        "alphaCode": "PKR",
+        "numericCode": "586",
+        "name": "Pakistani Rupee",
+        "rate": 198.95704887154,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0050262104593522
+    },
+    "krw": {
+        "code": "KRW",
+        "alphaCode": "KRW",
+        "numericCode": "410",
+        "name": "South Korean Won",
+        "rate": 1369.5653737376,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00073015864680557
+    },
+    "azn": {
+        "code": "AZN",
+        "alphaCode": "AZN",
+        "numericCode": "944",
+        "name": "Azerbaijan Manat",
+        "rate": 1.936489242556,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.51639842764118
+    },
+    "crc": {
+        "code": "CRC",
+        "alphaCode": "CRC",
+        "numericCode": "188",
+        "name": "Costa Rican Col\u00f3n",
+        "rate": 732.44601745428,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0013652883300201
+    },
+    "bnd": {
+        "code": "BND",
+        "alphaCode": "BND",
+        "numericCode": "096",
+        "name": "Brunei Dollar",
+        "rate": 1.5177504479714,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.65886984341636
+    },
+    "kmf": {
+        "code": "KMF",
+        "alphaCode": "KMF",
+        "numericCode": "174",
+        "name": "\tComoro franc",
+        "rate": 492.78254279666,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0020292926659389
+    },
+    "lsl": {
+        "code": "LSL",
+        "alphaCode": "LSL",
+        "numericCode": "426",
+        "name": "Lesotho loti",
+        "rate": 17.190436108322,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.058171880788755
+    },
+    "mnt": {
+        "code": "MNT",
+        "alphaCode": "MNT",
+        "numericCode": "496",
+        "name": "Mongolian togrog",
+        "rate": 3224.2758272823,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00031014716282598
+    },
+    "brl": {
+        "code": "BRL",
+        "alphaCode": "BRL",
+        "numericCode": "986",
+        "name": "Brazilian Real",
+        "rate": 6.0325694266323,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.16576684481827
+    },
+    "egp": {
+        "code": "EGP",
+        "alphaCode": "EGP",
+        "numericCode": "818",
+        "name": "Egyptian Pound",
+        "rate": 17.90936489501,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.055836709222371
+    },
+    "sgd": {
+        "code": "SGD",
+        "alphaCode": "SGD",
+        "numericCode": "702",
+        "name": "Singapore Dollar",
+        "rate": 1.5364803197912,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.65083814424377
+    },
+    "zar": {
+        "code": "ZAR",
+        "alphaCode": "ZAR",
+        "numericCode": "710",
+        "name": "South African Rand",
+        "rate": 17.71244070836,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.056457493152146
+    },
+    "kgs": {
+        "code": "KGS",
+        "alphaCode": "KGS",
+        "numericCode": "417",
+        "name": "Kyrgyzstan Som",
+        "rate": 96.696696550804,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.010341614922435
+    },
+    "pyg": {
+        "code": "PYG",
+        "alphaCode": "PYG",
+        "numericCode": "600",
+        "name": "Paraguayan Guaran\u00ed",
+        "rate": 7958.788447613,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00012564726485473
+    },
+    "jmd": {
+        "code": "JMD",
+        "alphaCode": "JMD",
+        "numericCode": "388",
+        "name": "Jamaican Dollar",
+        "rate": 175.83550732505,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0056871334761267
+    },
+    "ssp": {
+        "code": "SSP",
+        "alphaCode": "SSP",
+        "numericCode": "728",
+        "name": "South Sudanese pound",
+        "rate": 486.28535630681,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.002056405744139
+    },
+    "mru": {
+        "code": "MRU",
+        "alphaCode": "MRU",
+        "numericCode": "929",
+        "name": "Mauritanian ouguiya",
+        "rate": 40.869874675552,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.02446789983915
+    },
+    "cup": {
+        "code": "CUP",
+        "alphaCode": "CUP",
+        "numericCode": "192",
+        "name": "Cuban peso",
+        "rate": 1.1261713598754,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.88796433263107
+    },
+    "dkk": {
+        "code": "DKK",
+        "alphaCode": "DKK",
+        "numericCode": "208",
+        "name": "Danish Krone",
+        "rate": 7.444679434503,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.13432411815684
+    },
+    "inr": {
+        "code": "INR",
+        "alphaCode": "INR",
+        "numericCode": "356",
+        "name": "Indian Rupee",
+        "rate": 85.369331118174,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.011713808541099
+    },
+    "try": {
+        "code": "TRY",
+        "alphaCode": "TRY",
+        "numericCode": "949",
+        "name": "Turkish Lira",
+        "rate": 15.54177810404,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.064342702186698
+    },
+    "twd": {
+        "code": "TWD",
+        "alphaCode": "TWD",
+        "numericCode": "901",
+        "name": "New Taiwan Dollar ",
+        "rate": 31.791739517857,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.031454711669309
+    },
+    "tmt": {
+        "code": "TMT",
+        "alphaCode": "TMT",
+        "numericCode": "934",
+        "name": "New Turkmenistan Manat",
+        "rate": 3.9845018695406,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.25097240075214
+    },
+    "afn": {
+        "code": "AFN",
+        "alphaCode": "AFN",
+        "numericCode": "971",
+        "name": "Afghan afghani",
+        "rate": 112.00819932315,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0089279178313986
+    },
+    "srd": {
+        "code": "SRD",
+        "alphaCode": "SRD",
+        "numericCode": "968",
+        "name": "Surinamese dollar",
+        "rate": 23.739173673397,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.042124465398753
+    },
+    "ghs": {
+        "code": "GHS",
+        "alphaCode": "GHS",
+        "numericCode": "936",
+        "name": "Ghanaian Cedi",
+        "rate": 7.2157723699477,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.13858530296283
+    },
+    "yer": {
+        "code": "YER",
+        "alphaCode": "YER",
+        "numericCode": "886",
+        "name": "Yemeni rial",
+        "rate": 281.66870042134,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0035502702235077
+    },
+    "lbp": {
+        "code": "LBP",
+        "alphaCode": "LBP",
+        "numericCode": "422",
+        "name": "Lebanese Pound",
+        "rate": 1713.6109397722,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00058356303451992
+    },
+    "huf": {
+        "code": "HUF",
+        "alphaCode": "HUF",
+        "numericCode": "348",
+        "name": "Hungarian Forint",
+        "rate": 353.37343936802,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0028298674676524
+    },
+    "ngn": {
+        "code": "NGN",
+        "alphaCode": "NGN",
+        "numericCode": "566",
+        "name": "Nigerian Naira",
+        "rate": 471.47374627701,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0021210088746118
+    },
+    "irr": {
+        "code": "IRR",
+        "alphaCode": "IRR",
+        "numericCode": "364",
+        "name": "Iranian rial",
+        "rate": 47244.725262586,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 2.1166384065988e-5
+    },
+    "svc": {
+        "code": "SVC",
+        "alphaCode": "SVC",
+        "numericCode": "222",
+        "name": "Salvadoran colon",
+        "rate": 9.8535101845923,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.10148667644995
+    },
+    "sbd": {
+        "code": "SBD",
+        "alphaCode": "SBD",
+        "numericCode": "090",
+        "name": "Solomon Islands dollar",
+        "rate": 9.0387648714606,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.11063458494838
+    },
+    "zmw": {
+        "code": "ZMW",
+        "alphaCode": "ZMW",
+        "numericCode": "967",
+        "name": "Zambian kwacha",
+        "rate": 20.370705383863,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.049090101749356
+    },
+    "mur": {
+        "code": "MUR",
+        "alphaCode": "MUR",
+        "numericCode": "480",
+        "name": "Mauritian Rupee",
+        "rate": 49.525721495484,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.02019152815555
+    },
+    "ves": {
+        "code": "VES",
+        "alphaCode": "VES",
+        "numericCode": "928",
+        "name": "Venezuelan Bolivar",
+        "rate": 5.141749234833,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.19448634196811
+    },
+    "npr": {
+        "code": "NPR",
+        "alphaCode": "NPR",
+        "numericCode": "524",
+        "name": "Nepalese Rupee",
+        "rate": 135.82719130237,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0073622960941146
+    },
+    "isk": {
+        "code": "ISK",
+        "alphaCode": "ISK",
+        "numericCode": "352",
+        "name": "Icelandic Krona",
+        "rate": 143.16902274733,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0069847511759917
+    },
+    "gip": {
+        "code": "GIP",
+        "alphaCode": "GIP",
+        "numericCode": "292",
+        "name": "Gibraltar pound",
+        "rate": 0.83817313452894,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 1.1930709286716
+    },
+    "gel": {
+        "code": "GEL",
+        "alphaCode": "GEL",
+        "numericCode": "981",
+        "name": "Georgian lari",
+        "rate": 3.4155850128852,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.29277561420006
+    },
+    "mkd": {
+        "code": "MKD",
+        "alphaCode": "MKD",
+        "numericCode": "807",
+        "name": "Macedonian denar",
+        "rate": 61.622082464937,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.016227948813138
+    },
+    "bif": {
+        "code": "BIF",
+        "alphaCode": "BIF",
+        "numericCode": "108",
+        "name": "Burundian franc",
+        "rate": 2248.045633789,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.00044483082770634
+    },
+    "all": {
+        "code": "ALL",
+        "alphaCode": "ALL",
+        "numericCode": "008",
+        "name": "Albanian lek",
+        "rate": 121.06199367508,
+        "date": "Tue, 8 Feb 2022 11:55:01 GMT",
+        "inverseRate": 0.0082602307267787
+    }
+}
