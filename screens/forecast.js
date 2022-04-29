@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 import uuid from 'react-native-uuid';
+import countriesCodes from '../data/countries.json'
+import CountryFlag from "react-native-country-flag";
 
 const Forecast = ({route}) => {
 
@@ -41,10 +43,13 @@ const Forecast = ({route}) => {
 
   return (
     <ScrollView>
+      <View>
         <Text style = {{ alignSelf : 'center', fontSize : 30 , marginTop : 50 }}>Places Not To Visit</Text>				
         <Text style = {{ alignSelf : 'center', fontSize : 23 ,marginTop : 10 , color: 'blue'}}>{city}, {country}</Text>
+        <CountryFlag isoCode= {countriesCodes[country]} size={45} style={{marginTop:"5%", alignSelf:'center'}}/>
+        </View>
       {/* Basic info display */}
-      <Image source = {{ uri: 'https://blog.weatherapi.com/wp-content/uploads/2020/02/cropped-Asset-62-1.png'}} style= {{ height:80, width:170, alignSelf:'center', marginTop: 20 }}></Image>
+      <Image source = {{ uri: 'https://blog.weatherapi.com/wp-content/uploads/2020/02/cropped-Asset-62-1.png'}} style= {{ height:80, width:170, alignSelf:'center', marginTop: "5%" }}></Image>
       <View style={styles.basicInfo}>
 
         <Time time = {time}/>
