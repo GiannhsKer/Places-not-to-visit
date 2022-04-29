@@ -8,7 +8,7 @@ const Forecast = ({route}) => {
 
   const city = route.params.city
   const country = route.params.country
-  const api_key = "21e506d74d464ffa90d220042210612"
+  const api_key = "Forecast key"
 
   const [airq, setairq] = useState('');
   const [weather, setweather] = useState([]);

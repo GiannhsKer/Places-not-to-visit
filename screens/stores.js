@@ -9,7 +9,7 @@ const Stores = ({ navigation, route }) => {
 
     const city = route.params.city
     const country = route.params.country
-    const api_key = "AIzaSyCKevPwKDkRUN4T3mRVwM6HxZoIdLn08tw"
+    const api_key = "Google Places API key"
 
     const [stores, setStores] = useState({});
 

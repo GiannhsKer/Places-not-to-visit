@@ -9,7 +9,7 @@ const ResultsReviews = ({navigation,route}) => {
 
   const [reviews, setReviews] = useState({});
 
-  const api_key = "AIzaSyCKevPwKDkRUN4T3mRVwM6HxZoIdLn08tw"
+  const api_key = "Places API key"
   const city = route.params.city
   const country = route.params.country
   const storeName = route.params.storeName

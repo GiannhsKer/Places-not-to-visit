@@ -7,7 +7,7 @@ const ResultsCities = ({navigation,route}) => {
 
   const [data, setData] = useState([]);
 
-  const api_key = "21e506d74d464ffa90d220042210612"
+  const api_key = "Forecast key"
   
   const fetchData = async (url) => {
     const response = await fetch(url);

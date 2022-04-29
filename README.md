@@ -1,6 +1,6 @@
 # Places-not-to-visit
 
-<h2>A travel guide application you might use before traveling. It shows various information to help you decide, which place is not visitable. In contrast with other types of travel guide applications the app is focused to find the poorest store quality, but also giving an objective view about the place, such us weather, prices and live footage from cameras. </h2>
+<h3>A travel guide application you might use before traveling. It shows various information to help you decide, which place is not visitable. In contrast with other types of travel guide applications the app is focused to find the poorest store quality, but also giving an objective view about the place, such us weather, prices and live footage from cameras. </h3>
 
 
 <p float="center" >

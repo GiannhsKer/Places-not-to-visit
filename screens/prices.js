@@ -12,7 +12,7 @@ const Prices = ({navigation,route}) => {
     const city = route.params.city
     const country = route.params.country
 
-    const api_key = "r60hnqccmjg8yc"
+    const api_key = "Prices key"
 
     const [foreign_prices, setFPrices] = useState({});
 
