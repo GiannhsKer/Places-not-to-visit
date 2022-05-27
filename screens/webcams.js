@@ -9,6 +9,7 @@ const Webcams = ({ navigation, route }) => {
 
     const city = route.params.city
     const country = route.params.country
+    const api_key = "Webcams key" 
 
     const [data, setData] = useState([]);
 
@@ -19,7 +20,7 @@ const Webcams = ({ navigation, route }) => {
 
     const getData = () => {
         try {
-            fetchData(`https://places-not-to-visit.herokuapp.com/cameras/${country}/${city}`).then(data => {
+            fetchData(`https://places-not-to-visit.herokuapp.com/cameras/${country}/${city}/${api_key}`).then(data => {
                 setData(data);
             });
         } catch (error) {
