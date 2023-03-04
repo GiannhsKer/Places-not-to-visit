@@ -4,12 +4,13 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import uuid from 'react-native-uuid';
 import CountryFlag from "react-native-country-flag";
 import countriesCodes from '../data/countries.json'
+import apiKeys from '../apiKeys.json'
 
-const Webcams = ({ navigation, route }) => {
+const Webcams = ({ navigation, route }) => {    
 
     const city = route.params.city
     const country = route.params.country
-    const api_key = "Webcams key" 
+    const api_key = apiKeys.worldcams
 
     const [data, setData] = useState([]);
 
@@ -20,7 +21,7 @@ const Webcams = ({ navigation, route }) => {
 
     const getData = () => {
         try {
-            fetchData(`https://places-not-to-visit.herokuapp.com/cameras/${country}/${city}/${api_key}`).then(data => {
+            fetchData(`http://192.168.2.1:7001/cameras/${country}/${city}/${api_key}`).then(data => {
                 setData(data);
             });
         } catch (error) {
@@ -37,14 +38,14 @@ const Webcams = ({ navigation, route }) => {
 
         <ScrollView>
             <View>
-                <Text style={{ alignSelf: 'center', fontSize: 30, marginTop: 50 }}>Places Not To Visit</Text>
-                <Text style={{ alignSelf: 'center', fontSize: 23, marginTop: 10, color: 'blue' }}>{city}, {country}</Text>
+                <Text style={styles.placesNotToVisit}>Places Not To Visit</Text>
+                <Text style={styles.cityCountry}>{city}, {country}</Text>
                 <CountryFlag isoCode={countriesCodes[country]} size={45} style={{ marginTop: "5%", alignSelf: 'center' }} />
             </View>
-            <Image source={{ uri: "https://worldcams.tv/img/logo.png" }} style={{ height: 70, width: 135, alignSelf: 'center', marginTop: "15%" }}></Image>
+            <Image source={{ uri: "https://worldcams.tv/img/logo.png" }} style={styles.logo}></Image>
             <View style={styles.container}>
                 {Object.keys(data).length > 0 ? Object.keys(data).map(place => (
-                    <Pressable key={uuid.v4()} onPress={() => { navigation.navigate('Display', { 'link': `${country}/${city}/${place}` }) }} >
+                    <Pressable key={uuid.v4()} onPress={() => { navigation.navigate('display', { 'link': `${data[place][1].split("/").slice(3,6)}` }) }} >
                         <Image
                             source={{ uri: data[place][0] }}
                             style={styles.thumbnail}
@@ -71,6 +72,23 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         flexWrap: 'wrap',
         justifyContent: 'space-evenly'
+    },
+    placesNotToVisit: {
+        alignSelf: 'center',
+        fontSize: 30,
+        marginTop: 50
+    },
+    cityCountry: {
+        alignSelf: 'center',
+        fontSize: 23,
+        marginTop: 10,
+        color: 'blue'
+    },
+    logo: {
+        height: 70,
+        width: 135,
+        alignSelf: 'center',
+        marginTop: "15%"
     },
     titles: {
         marginTop: 50,

@@ -6,7 +6,7 @@ import { Searchbar } from 'react-native-paper';
 
 import Screens from './screens/screens'
 import ResultsCities from './screens/resultsCities';
-import Display from './screens/webcamsDisplay'
+import Display from './screens/display'
 import ResultsReviews from './screens/resultsReviews';
 
 const Stack = createNativeStackNavigator();
@@ -33,7 +33,7 @@ const Home = ({navigation}) => {
  
    return (
       <View>
-       <Text style ={styles.titles}>Places Not To Visit</Text>
+       <Text style ={styles.title}>Places Not To Visit</Text>
  
        <Searchbar
           placeholder="search the city here"
@@ -52,10 +52,7 @@ const Home = ({navigation}) => {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  titles: {
+  title: {
     marginTop : 100,
     alignSelf: 'center',
     fontSize: 30,

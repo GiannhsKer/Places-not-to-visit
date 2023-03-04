@@ -2,17 +2,17 @@ import React, {useState, useEffect} from 'react';
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 import uuid from 'react-native-uuid';
 import CountryFlag from "react-native-country-flag";
-
 import countriesCodes from '../data/countries.json'
 import conv_dict from '../data/eur.json'
 import local_prices from '../data/thes_prices.json'
+import apiKeys from '../apiKeys.json'
 
-const Prices = ({navigation,route}) => {
+const Prices = ({route}) => {
 
     const city = route.params.city
     const country = route.params.country
 
-    const api_key = "Prices key"
+    const api_key = apiKeys.numbeo
 
     const [foreign_prices, setFPrices] = useState({});
 
@@ -54,11 +54,11 @@ const Prices = ({navigation,route}) => {
     return (
         <ScrollView>
             <View >
-                <Text style = {{ alignSelf : 'center', fontSize : 30 , marginTop : 50 }}>Places Not To Visit</Text>				
-                <Text style = {{ alignSelf : 'center', fontSize : 23 , marginTop : 10 , color: 'blue'}}>{city}, {country}</Text>
+                <Text style = {styles.placesTitle}>Places Not To Visit</Text>				
+                <Text style = {styles.cityTitle}>{city}, {country}</Text>
                 <CountryFlag isoCode= {countriesCodes[country]} size={45} style={{marginTop:"5%", alignSelf:'center'}}/>
             </View>
-                <Image source = {{uri: 'https://logovtor.com/wp-content/uploads/2021/10/numbeo-logo-vector.png'}} style={{ marginTop: "10%", alignSelf: 'center' ,height:100, width: 200}}></Image>
+                <Image source = {{uri: 'https://logovtor.com/wp-content/uploads/2021/10/numbeo-logo-vector.png'}} style={styles.logo}></Image>
                 <View style = {{ marginVertical: 40}}>
                     <View style = {{ marginRight: "5%", alignSelf : 'flex-end', flexDirection: 'row'}} >
                         <CountryFlag isoCode= {countriesCodes[country]} size={25} />
@@ -106,6 +106,23 @@ const styles = StyleSheet.create({
         marginTop : 50,
         alignSelf: 'center',
         fontSize: 30,
+    },
+    placesTitle: {
+        alignSelf: 'center',
+        fontSize: 30,
+        marginTop: 50
+    },
+    cityTitle: {
+        alignSelf: 'center',
+        fontSize: 23,
+        marginTop: 10,
+        color: 'blue'
+    },
+    logo: {
+        marginTop: "10%",
+        alignSelf: 'center',
+        height: 100,
+        width: 200
     },
     error_text : {
         fontWeight : 'bold',

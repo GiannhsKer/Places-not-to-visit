@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Pressable, ScrollView} from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import uuid from 'react-native-uuid';
+import apiKeys from '../apiKeys.json'
 
 const ResultsCities = ({navigation,route}) => {
 
   const [data, setData] = useState([]);
 
-  const api_key = "Forecast key"
+  const api_key = apiKeys.weatherApi
   
   const fetchData = async (url) => {
     const response = await fetch(url);
