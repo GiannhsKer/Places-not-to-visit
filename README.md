@@ -21,5 +21,5 @@
 
 ## Using the application
 
-- There aren't any api keys given so each user has to hardcode the api keys in the application.
+- There aren't any api keys given so each user has to add the keys in keys.json.
 
