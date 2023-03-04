@@ -14,13 +14,13 @@ const Stores = ({ navigation, route }) => {
     const [stores, setStores] = useState({});
 
     const fetchData = async (url) => {
-        const response = await fetch(url);
+        const response = await fetch(url, { mode: 'cors' });
         return response.json();
     };
 
     const getData = () => {
         try {
-            fetchData(`http://192.168.2.1:7001/stores/${city}/${api_key}`).then(data => {
+            fetchData(`http://192.168.2.6:7001/stores/${city}/${api_key}`).then(data => {
                 setStores(data[city])
             });
         } catch (error) {
@@ -67,7 +67,7 @@ const Stores = ({ navigation, route }) => {
                                 <Text style={[styles.ratingStyle, { color: 'green' }]}>Positive</Text>
                             }
                             {stores[store]["ratingsTotal"] > 200 ?
-                                <Text style={[styles.ratingsTotalStyle, { color: 'deepskyblue' }]}>{"\t\t\t\t" + stores[store]["ratingsTotal"]}</Text> :
+                                <Text style={[styles.ratingsTotalStyle, { color: 'deepskyblue' }]}>{"\t" + stores[store]["ratingsTotal"]}</Text> :
                                 stores[store]["ratingsTotal"] > 100 ?
                                     <Text style={[styles.ratingStyle, { color: 'dodgerblue' }]}>{stores[store]["ratingsTotal"]}</Text> :
                                     <Text style={[styles.ratingStyle, { color: 'darkslateblue' }]}>{stores[store]["ratingsTotal"]}</Text>

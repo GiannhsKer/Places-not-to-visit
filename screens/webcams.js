@@ -21,7 +21,7 @@ const Webcams = ({ navigation, route }) => {
 
     const getData = () => {
         try {
-            fetchData(`http://192.168.2.1:7001/cameras/${country}/${city}/${api_key}`).then(data => {
+            fetchData(`http://192.168.2.6:7001/cameras/${country}/${city}/${api_key}`).then(data => {
                 setData(data);
             });
         } catch (error) {

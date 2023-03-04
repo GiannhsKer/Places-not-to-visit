@@ -17,7 +17,7 @@ const Display = ({route}) => {
 
     const getData = () => {
         try {
-            fetchData(`http://192.168.2.1:7001/cameras/${page_link.replace(/,/g,"/")}/${api_key}`).then(data => {
+            fetchData(`http://192.168.2.6:7001/cameras/${page_link.replace(/,/g,"/")}/${api_key}`).then(data => {
                 setLinkDisplay(data)
         });
         } catch (error) {

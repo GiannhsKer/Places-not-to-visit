@@ -26,7 +26,7 @@ const Prices = ({route}) => {
             fetchData(`https://www.numbeo.com/api/city_prices?api_key=${api_key}&city=${city}&country=${country}`).then(data => {
                 var prices = {}
                 var rate
-
+                console.log(data)
                 if (data.currency.toLowerCase() == 'eur'){
                     data.prices.map((it,i) => { 
                         prices[data.prices[i].item_name] = data.prices[i].average_price.toFixed(1)
