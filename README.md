@@ -1,14 +1,14 @@
 # Places-not-to-visit
 
-<h3>A travel guide application you might use before traveling. It shows various information to help you decide, which place is not visitable. In contrast with other types of travel guide applications the app is focused to find the poorest store quality, but also giving an objective view about the place, such us weather, prices and live footage from cameras. </h3>
+## Description of the app
+A travel guide application you might use before traveling. It shows various information to help you decide, which place is not visitable. In contrast with other types of travel guide applications the app is focused to find the poorest store quality, but also giving an objective view about the place, such us weather, prices and live footage from cameras.
 
 
-<p float="center" >
-    <img src="assets/Screenshot_Forecast.png" alt="screenshot1" width="200"/>
-    <img src="assets/Screenshot_Webcams.png" alt="screenshot2" width="200"/>
-    <img src="assets/Screenshot_Prices.png" alt="screenshot3" width="200"/>
-    <img src="assets/Screenshot_Stores.png" alt="screenshot3" width="200"/>
-    <img src="assets/Screenshot_resultsReviews.png" alt="screenshot3" width="200"/>
+<p>
+    <img src="assets/Screenshot_Forecast.png" alt="screenshot1" width="230"/>
+    <img src="assets/Screenshot_Webcams.png" alt="screenshot2" width="230"/>
+    <img src="assets/Screenshot_Prices.png" alt="screenshot3" width="230"/>
+    <img src="assets/Screenshot_resultsReviews.png" alt="screenshot3" width="230"/>
 </p>
 
 ## Features
