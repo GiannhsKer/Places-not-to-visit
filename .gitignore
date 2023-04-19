@@ -9,9 +9,19 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-keys.json
 
 # macOS
 .DS_Store
 yarn.lock
 node_modules
+
+# My files
+.expo-shared
+.expo
+node_modules
+babel.config.js
+keys.json
+package.lock.json
+package.json
+yarn-error.log
+yarn.lock
